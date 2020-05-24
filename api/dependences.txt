@@ -1,0 +1,4 @@
+express require-dir requests cors nodemon
+mongoose --save
+node-fetch --save 
+axios

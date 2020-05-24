@@ -1,0 +1,15 @@
+header#main-header{
+    width: 100%;
+    font-size: 18pt;
+    font-weight: bold;
+    color:white;
+    height: 90px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../logo.svg');
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position: center;
+}
