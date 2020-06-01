@@ -49,7 +49,7 @@ module.exports = {
         const {code} = req.query;
         //const response = await fetch(api_url,myInit)
         const api_url = 'https://api.instagram.com/oauth/access_token'
-        var redirect_uri="https://6338625c.ngrok.io/api/auth"
+        var redirect_uri="https://bb2878e9e4a0.ngrok.io/api/auth"
         const body='client_id='+client_id+';client_secret='+client_secret+';grant_type=authorization_code;redirect_uri='+redirect_uri+';code='+code
         //console.log(body)
 

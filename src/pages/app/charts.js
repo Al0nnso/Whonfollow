@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Bar, Line, Pie} from 'react-chartjs-2'
 
+
 export default class Chart extends Component {
 
     constructor(props){
@@ -25,11 +26,15 @@ export default class Chart extends Component {
         const defaultOptions={
                 scales: {
                     yAxes: [{
+                        
                         ticks: {
+                            display: false ,
                             beginAtZero: true
                         }
+                    }],xAxes: [{
+                        display: false //this will remove all the x-axis grid lines
                     }]
-                }
+                },
         }
         switch(this.props.type){
             case "bar":

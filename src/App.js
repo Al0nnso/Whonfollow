@@ -4,6 +4,7 @@ import Routes from './routes';
 //import './App.css';
 
 import './styles.css';
+import './scrollbar.css';
 import Main from './pages/main'
 //import Header from './components/Header';
 

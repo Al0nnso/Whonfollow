@@ -14,10 +14,11 @@ export default class Main extends Component{
                 <article id="l1">
                     <strong>RELATÓRIOS {br}DE PERFIL</strong>
                     <p>Relátorios de crescimento{br} do perfil diários</p>
+                    <p id="hashtags">Em produção!</p>
                 </article>
                 <article id="l2">
                     <strong>INFORMAÇÃO DO PERFIL</strong>
-                    <p>Saiba quem parou de te seguir e quem não te segue de volta</p>
+                    <p>Receba estatisticas detalhadas de influêcia,engajamento e outras informações</p>
                 </article>
                 <article id="l3">
                     <strong>GERADOR DE #HASHTAGS</strong>
@@ -26,6 +27,7 @@ export default class Main extends Component{
                 <article id="l4">
                     <strong>SORTEIOS</strong>
                     <p>Faça e gerencie sorteios de comentários, likes, seguidores em seu perfil</p>
+                    <p id="hashtags">Em produção!</p>
                 </article>
                 <article id="bottom">
                     WHONFOLLOW BETA™ V01-05-20

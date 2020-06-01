@@ -5,7 +5,7 @@ import Main from './pages/main'
 import Product from './pages/app'
 
 const client_id='266386234514516';
-const redirect_uri='https://6338625c.ngrok.io/api/auth'
+const redirect_uri='https://bb2878e9e4a0.ngrok.io/api/auth'
 const login_url='https://api.instagram.com/oauth/authorize?client_id='+client_id+'&redirect_uri='+redirect_uri+'&scope=user_profile,user_media&response_type=code'
 
 const Routes = () => (

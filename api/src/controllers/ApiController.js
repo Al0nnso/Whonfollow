@@ -5,7 +5,7 @@ const axios = require('axios')
 const request = require('request');
 const User = mongoose.model('User')
 
-const AUTH_PAGE='https://6338625c.ngrok.io/api/auth'
+const AUTH_PAGE='https://bb2878e9e4a0.ngrok.io/api/auth'
 const REDIRECT_PAGE='http://localhost:5500/whonfollow-pages'
 const client_id='266386234514516';
 const client_secret='6b64169771a96619579ad25aa7e99311';

@@ -19,29 +19,33 @@ article#profile-info{
     justify-content: space-between;
 }
 article#profile-info view{
-    display: inline-block;
     vertical-align: top;
     
 }
 .chart-render>*{
-    width: 500px;
-    margin-left: -40px;
-    transform: scale(1);
-    margin-top: 10px;
+    width: 100%;
+    display: inline-flex;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}.chart-render>p{
+    padding-top: 5px;
+    margin-left: -1pt;
     
 }.chart-render{
-    
-    text-align: center;
-    margin-left: calc(50% - 250px);
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    /*margin-left: calc(50% - 250px);
     margin-top: -10px;
-    margin-bottom: -25px;
+    margin-bottom: -25px;*/
 }
 article>*{
-    transform: scale(.95);
+    
     
 }
 .chart{
-
+    
 }
 
 #appArea{
@@ -58,7 +62,16 @@ article>*{
     height: auto;
     position: fixed;
 }
+#center{
 
+    text-align: center;
+    margin-top: -20px;
+}#display-info{
+    padding-top: 25px;
+}#hashtags{
+    color: var(--color-1);
+    text-decoration: underline;
+}
 @media screen and (max-width: 480px){
     #appArea{
         width: 100%;
@@ -71,24 +84,32 @@ article>*{
         width: 0px;
         height: auto;
     }img#img-picture{
+        margin-top: -10px;
         width: 100px;
         height: 100px;
     }/*article#profile-info{
         font-size: 1000px;
     }*/
+    .chart-render>p{
+        
+
+        margin-bottom: 5px;
+    }
     .chart-render>*{
-        width: 130%;
-        margin-left: -15%;
-        transform: scale(.8);
-        margin-top: 10px;
+        width: 100%;
+        display: block;
+        max-width: 500px;
         
     }.chart-render{
-        margin: -5px;
-        margin-top: -20px;
-        margin-bottom: -25px;
+        display: block;
+        width: 100%;
     }
+
     article>*{
-        transform: scale(.95);
+        transform: scale(1);
+    }#center{
+        text-align: left;
+        margin-top: 5px;
     }
 
 }
