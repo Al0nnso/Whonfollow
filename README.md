@@ -34,7 +34,7 @@
   <img src="UI-UX/7.png" width="200" title="Metas">
 </p>
 -->
-## Para quem?
+## Descrição
 Para pessoas que querem administrar seu perfil / público no instagram  
 
 ## Features
