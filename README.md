@@ -1,11 +1,9 @@
 <!-- background: #fff4e3 -->
 <h1 align="center">
 <br>
-  <!--<img src="logo.svg" alt="Whonfollow" width="250">-->
-  Whonfollow
+  <img src="documents/logo2.png" alt="Whonfollow" width="350">
+  <!--Whonfollow-->
 <br>
-<br>
-<!--Whonfollow-->
 </h1>
 
 <p align="center">ReactJS App para administrar seu perfil no instagram</p>
@@ -39,11 +37,11 @@ Para pessoas que querem administrar seu perfil / público no instagram
 
 ## Features
 Todas as funções e usos do app
-- 📄 **Relatórios do Perfil**
+- 📊 **Relatórios do Perfil**
 - 📄 **Detector de engajamento**
-- ⚠️ **Informações do perfil**
+- 🎯 **Informações do perfil**
 - ✅ **Gerador de Hashtags**
-- 📊 ~~**Sorteios**~~
+- 🏅 ~~**Sorteios**~~
 
 <!--
 ## Desenvolvimento:
